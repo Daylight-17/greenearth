@@ -1,0 +1,136 @@
+#headerstyle{
+	background: greenyellow;
+	border-width: 12px 12px;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+}
+.companyname{
+	font-size: 50px;
+	text-align: center;
+	font-family: monospace;
+	letter-spacing: 1;
+	color: green;
+	margin-top: 50px;
+	text-shadow: 10px 10px 2 lightseagreen;
+}
+#searcharea{
+	text-align: right;
+}
+#searcharea li{
+	display: inline;
+}
+.searchbutton{
+	background-color: green;
+	color: whitesmoke;
+	margin-right: 2%;
+}
+#searcharea.searchbutton:hover {
+	color: green;
+	background-color: lawngreen;
+	padding: 1px 1px 1px 1px;
+	text-decoration: none;
+}
+.searchbar{
+	border-color: lawngreen;
+	width: 300px;
+}
+.loremtext{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.loremtextipsum{
+	background: url(images/greenearth/greenearth1.jpg);
+	margin-left: 30%;
+	margin-right: 30%;
+}
+#menubar{
+	text-align: right;
+	padding: 8px;
+}
+#menubar li {
+	display: inline;
+}
+#menubar li a {
+	color: floralwhite;
+	padding: 20px 20px 10px 10px;
+	text-decoration: none;
+	border-radius: 0 0 0 0;
+}
+#menubar li a:hover {
+	color: green;
+	background-color: lawngreen;
+	padding: 9px 9px 9px 9px;
+	text-decoration: none;
+	border-radius: 5px 5px 5px 5px;
+}
+input{
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+}
+
+#footerbar{
+	padding: 0;
+}
+#footerbar li {
+	display: inline;
+}
+#footerbar li a {
+	padding: 10px 10px;
+	border-radius: 5px 5px 5px 5px;
+	text-decoration: none;
+	color: green;
+}
+#footerbar li a:hover {
+	background-color: lawngreen;
+	color: floralwhite;
+}
+#contactfooterbar{
+	padding: 0;
+}
+#contactfooterbar li {
+	display: inline;
+}
+#contactfooterbar li a {
+	padding: 10px 10px;
+	border-radius: 5px 5px 5px 5px;
+	text-decoration: none;
+	color: black;
+}
+#contactfooterbar li a:hover {
+	background-color: lawngreen;
+	color: floralwhite;
+}
+body{
+	background-color: ghostwhite;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+fieldset{
+	margin: 0;
+	padding: 0;
+	border-radius: 0.5rem;
+}
+img{
+	width: 60%;
+	margin: 0;
+	padding: 0;
+	border-radius: 0.5rem;
+}
+.grayed{
+	background: green;
+	color: ghostwhite;
+	padding: 7px;
+}
+.center{
+	text-align: center;
+}
+.contactus{
+	text-align: center;
+}
+.contactus label{
+	color: green;
+}
+.contactus label h3{
+	color: black;
+}
